@@ -54,7 +54,7 @@ Run on TUM RGB-D `freiburg1_desk` (573 RGB-D frames, associated via TUM's standa
 - Outputs saved as `poses.json`, `trajectory.txt` (TUM format), and `map_points.npy` — file-based by design, ready for the fusion stage and eventual FastAPI wrapping
 - Quantitative accuracy (ATE/RPE against ground truth) deferred to `05_evaluation.ipynb`, where trajectories are properly Sim(3)-aligned before comparison
 
-![SLAM trajectory and sparse map](docs/slam_trajectory_preview.png)
+![SLAM trajectory and sparse map]([docs/slam_trajectory_preview.png](https://github.com/FaridRash/slam-track-fusion/blob/main/Output/01_slam.jpg))
 *Estimated camera trajectory (blue) and sparse 3D map points (gray) on freiburg1_desk. Ground truth (green) shown unaligned — see note above.*
 
 ## Tech stack
