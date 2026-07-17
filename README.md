@@ -16,8 +16,8 @@ This closes a recurring skill gap identified across ~68 computer vision / ML eng
 ## Architecture
 
 ```
-TUM RGB-D dataset (RGB + depth frames)
-        |
+             TUM RGB-D dataset (RGB + depth frames)
+                               |
         +----------------------+----------------------+
         |                                              |
    Visual SLAM                              Detection + tracking
