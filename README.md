@@ -15,25 +15,9 @@ This closes a recurring skill gap identified across ~68 computer vision / ML eng
 
 ## Architecture
 
-```
-             TUM RGB-D dataset (RGB + depth frames)
-                               |
-        +----------------------+----------------------+
-        |                                              |
-   Visual SLAM                              Detection + tracking
-   (trajectory + 3D map)                    (YOLO + ByteTrack)
-        |                                              |
-        +----------------------+----------------------+
-                               |
-                            Fusion
-              (project tracks into map frame)
-                               |
-                        Annotated map
-              (trajectory + object tracks)
-                               |
-                          Evaluation
-                (ATE vs ground truth, FPS)
-```
+
+![Architecture diagram](Output/Architecture.png)
+
 
 ## Pipeline stages
 
